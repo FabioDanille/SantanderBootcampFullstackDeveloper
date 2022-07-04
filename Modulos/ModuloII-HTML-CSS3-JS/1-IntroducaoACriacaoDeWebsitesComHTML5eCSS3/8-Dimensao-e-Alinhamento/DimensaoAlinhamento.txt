@@ -1,0 +1,11 @@
+Dimensão e alinhamento
+
+width
+height
+
+max-width
+max-height
+
+margin
+
+text align
