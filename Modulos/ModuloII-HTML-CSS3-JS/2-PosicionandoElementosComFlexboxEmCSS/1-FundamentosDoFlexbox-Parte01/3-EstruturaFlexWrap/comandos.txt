@@ -1,0 +1,4 @@
+- nowrap = não permite a quebra de linha
+- wrap = permite a quebra de linha assim que um dos flex itens não suporte mais compactar
+
+- wrap-reverse = quebra de linha pra cima

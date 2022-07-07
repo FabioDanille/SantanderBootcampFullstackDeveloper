@@ -1,0 +1,5 @@
+- flex-start = início do container
+- flex-end = final do container
+- center = ao centro do container
+- space-between = cria um espaçamento igual entre os elementos
+- scape-around = espaçamentos do meio são duas vezes maiores que o inicial e final

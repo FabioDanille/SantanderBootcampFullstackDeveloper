@@ -1,0 +1,6 @@
+Propriedade que estabelece o tamanho inicial do item ANTES da distribuição do espaço restante dentro dele, usando como bae o conteúdo interno disposto
+
+Comandos:
+- auto = caso o item não  tenha tamanho, este será proporcional ao conteúdo do item.
+- px, %, em, ...: são valores exatos previamente definidos
+- 0 (zero): terá relação com adefinição do flex-grow

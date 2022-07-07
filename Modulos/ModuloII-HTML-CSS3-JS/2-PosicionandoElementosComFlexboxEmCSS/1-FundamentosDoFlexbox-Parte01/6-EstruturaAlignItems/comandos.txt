@@ -1,0 +1,7 @@
+Diferente da justify content, independe do conhecimento da altura dos itens filhos desse container
+
+- center = alinhamento dos itens ao centro
+- stretch = padrão, e os flex itens cresçam igualmente
+- flex-start = alinhamento dos itens no início
+- flex-end = alinhamento dos itens no final
+- baseline = alinhamento de acordo com a linha base da tipografia dos itens

@@ -1,0 +1,7 @@
+Flex
+
+Propriedade que é um ATALHO ou ABREVIAÇÃO de escrita para as propriedades: grow, shrink e basis
+
+Comando:
+ex: 
+flex: 1(grow) 0(shrink) auto(basis); 
