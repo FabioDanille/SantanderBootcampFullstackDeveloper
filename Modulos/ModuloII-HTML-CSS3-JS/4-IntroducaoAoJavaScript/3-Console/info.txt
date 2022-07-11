@@ -1,0 +1,8 @@
+Objetivo
+
+1- Aprender a utilizar o console em uma página web
+
+2- Aprender a utilizar o console no terminal
+Para utilizar o console no terminal, necessário ABRIR o terminal(Preferencialmente usar BASH),
+selecionar a pasta onde está o arquivo JS, e digitar o " node 'arquivo.js'"
+
