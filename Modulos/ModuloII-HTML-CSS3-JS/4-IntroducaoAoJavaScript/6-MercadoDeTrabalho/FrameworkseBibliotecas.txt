@@ -1,0 +1,4 @@
+- VueJs
+- Angular
+- React (biblioteca)
+- jQuery

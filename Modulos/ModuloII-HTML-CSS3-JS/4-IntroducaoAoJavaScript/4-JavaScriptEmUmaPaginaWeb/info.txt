@@ -1,0 +1,13 @@
+Objetivos
+
+1- Se familiarizar com uma estrutura de projetos simples
+2- Aprender a interagir com elementos HTML no DOM
+
+
+DOM
+- Documento Object Model
+- Estrutura dos elementos dentro da janela
+
+
+
+ctrl + shift + i = abre console web direto
