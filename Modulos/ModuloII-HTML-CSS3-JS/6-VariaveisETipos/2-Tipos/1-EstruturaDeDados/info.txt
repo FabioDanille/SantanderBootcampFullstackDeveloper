@@ -1,0 +1,9 @@
+Objetivos
+
+1-Apresentar as principais estruturas de dados do JavaScript e seus principais métodos.
+
+Estrutura de dados
+Tipos de dados:
+
+Primitivos = Numbers, strings, booleans, null, undefined.
+Não-primitivos = objetos, arrays.

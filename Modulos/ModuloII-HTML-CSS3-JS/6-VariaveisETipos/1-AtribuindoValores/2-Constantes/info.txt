@@ -1,0 +1,5 @@
+Constantes
+
+- Declarada em SNAKE_UPPER_CASE
+- Escopo de bloco
+- Não faz hoisting (assim como let)

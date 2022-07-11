@@ -1,0 +1,17 @@
+strings
+Métodos importantes:
+- Concatenação
+- Propriedade length
+- Iterabilidade
+- Formatação
+- Index de letras
+
+
+___
+
+
+Há como concatenar strings, ex:
+let nome = 'Fabio ';
+let sobrenome = 'Danille';
+
+nome.concat(sobrenome);

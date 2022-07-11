@@ -1,0 +1,6 @@
+ex:
+
+let divisao = 10/3;
+
+Math.floor(divisao); -> arredonda pra baixo
+Math.floor(ceil); -> arredonda pra cima

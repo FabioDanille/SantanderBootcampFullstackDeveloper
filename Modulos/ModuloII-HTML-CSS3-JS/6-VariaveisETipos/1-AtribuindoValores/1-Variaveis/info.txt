@@ -1,0 +1,9 @@
+Objetivos
+
+1- Explicar o que são variáveis
+2- Explicar o que são constantes
+3- Explicar a diferença entre var, const e let
+
+
+Hoisting = ex: a variável VAR pode ser declarada em qualquer 
+               lugar que será lida no topo
