@@ -1,0 +1,6 @@
+Tipos de operadores trazidos pela aula (há mais)
+- Aritimética
+- Atribuição
+- Compração
+- Lógica
+- Condicional
