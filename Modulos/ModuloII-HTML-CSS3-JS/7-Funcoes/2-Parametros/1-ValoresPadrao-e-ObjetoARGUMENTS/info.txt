@@ -1,0 +1,4 @@
+Objetivos
+
+1- Ensinar como manipular parâmetros de uma função
+2- Técnicas para lidar com números indefinidos de parâmetros
