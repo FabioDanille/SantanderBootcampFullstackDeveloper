@@ -1,0 +1,13 @@
+Objetivos do Curso
+
+1. Explicar o conceito de assincronicidade
+2. Apresentar Promises
+3. Ensinar como fazer requisições de APIs
+
+
+Promises (Objeto de processamento assíncrono)
+- Inicialmente, seu valor é desconhecido. Ela pode, então,
+ser resolvida ou rejeitada.
+
+Uma promise pode ter 3 estados
+1) Pending 2)Fulfilled 3)Rejected

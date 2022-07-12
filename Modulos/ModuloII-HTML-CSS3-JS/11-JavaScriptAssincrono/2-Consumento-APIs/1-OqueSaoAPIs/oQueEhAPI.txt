@@ -1,0 +1,13 @@
+O que é API
+
+API - Application Programming Interface
+- Uma API é uma forma de intermediar os resultados do back-end como o que é
+apresentado no front-end.
+
+- Você consegue acessá-la por meio de URLs.
+
+
+JSON: JavaScript Object Notation
+- É muito comum que API's retornem seus dados no formato .json, portanto
+precisamos tratar esses dados quando os recebermos.
+
