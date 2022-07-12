@@ -1,0 +1,4 @@
+O que é?
+
+- Cria um novo array
+- Não modifica o array original

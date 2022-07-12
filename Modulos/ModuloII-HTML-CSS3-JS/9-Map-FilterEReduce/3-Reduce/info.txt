@@ -1,0 +1,4 @@
+O que é?
+
+(diferente de map e filter, não retorna um array)
+- Executa uma função em todos os elementos do array, retornando um valor único
