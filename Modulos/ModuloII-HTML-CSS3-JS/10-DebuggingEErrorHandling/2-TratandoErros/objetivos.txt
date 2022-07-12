@@ -1,0 +1,2 @@
+1. Explicar a diferença entre "throw" e "return"
+2. Apresentar a implementação da declaração try/catch

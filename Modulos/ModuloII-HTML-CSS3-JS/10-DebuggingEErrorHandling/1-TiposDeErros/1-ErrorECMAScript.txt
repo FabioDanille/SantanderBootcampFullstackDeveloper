@@ -1,0 +1,5 @@
+Composto por:
+- Mensagem
+- Nome
+- Linha
+- Call Stack
