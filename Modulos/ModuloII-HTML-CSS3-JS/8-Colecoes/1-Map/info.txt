@@ -1,0 +1,11 @@
+Características
+- Uma coleção de array no formato [chave, valor];
+- Pode ser iterado por um loop for...of
+
+
+MAP vs OBJETO
+- Maps podem ter chaves de qualquer tipo;
+- Maps possuem a pripriedade length;
+- Maps são mais fáceis de iterar;
+- Utilizado quando o valor das chaves é desconhecido;
+- Os valores tem o mesmo tipo.

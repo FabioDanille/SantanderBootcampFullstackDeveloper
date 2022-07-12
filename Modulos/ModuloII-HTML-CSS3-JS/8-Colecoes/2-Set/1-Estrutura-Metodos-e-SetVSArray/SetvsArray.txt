@@ -1,0 +1,9 @@
+Estrutura
+-Sets são estruturas que armazenam apenas VALORES ÚNICOS
+
+
+Set vs Array
+- Possui valores únicos;
+- Em vez da pripriedade length, consulta-se o número de registros pela
+propriedade size;
+- Não possui os métodos map, filter, reduce etc.
