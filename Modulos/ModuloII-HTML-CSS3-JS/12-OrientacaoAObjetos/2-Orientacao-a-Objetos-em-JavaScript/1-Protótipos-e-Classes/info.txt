@@ -1,0 +1,3 @@
+Classes
+- O JavaScritp não possui classes nativamente. Todas as classes são objetos
+e a herança se dá por protótipos
