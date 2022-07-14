@@ -1,0 +1,9 @@
+O que são módulos
+
+Módulos arquivos JavaScript que tem a capacidade de exportar e importar informações
+de outros arquivos do mesmo tipo
+
+Algumas vantagens são:
+- Organização do código;
+- Compartilhamento de variáveis em escopos diferentes;
+- Explicita as dependências dos arquivos
