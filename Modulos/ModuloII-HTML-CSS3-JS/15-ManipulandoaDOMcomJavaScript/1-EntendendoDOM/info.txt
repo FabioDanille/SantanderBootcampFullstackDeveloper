@@ -1,0 +1,4 @@
+O que é? DOM
+
+O DOM HTML é um padrão de como acessar e modificar os elementos
+HTML de uma página

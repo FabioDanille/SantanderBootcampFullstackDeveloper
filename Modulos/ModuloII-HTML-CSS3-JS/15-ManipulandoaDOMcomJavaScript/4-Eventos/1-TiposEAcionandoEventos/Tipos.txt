@@ -1,0 +1,11 @@
+Eventos do mouse:
+- mouseover(mouse entrando)
+- mouseout(mouse saindo) 
+
+Eventos de clique:
+- click
+- dbclick (double click)
+
+Eventos de atualização:
+- Change
+- load
