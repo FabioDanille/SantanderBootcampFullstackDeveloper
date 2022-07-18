@@ -1,0 +1,24 @@
+O que será usado
+
+- Node;
+- TypeScript;
+
+Setup do Ambiente
+- Projeto Node
+    - Instalar o Node;
+    - Abrir a pasta do projeto com o terminal
+    - Inserir 'npm init';
+    - Confirmar todas as configuraç~eos
+
+- TypeScript:
+    - npm install -g typescript (se possível);
+    - npm install typescript
+
+
+REPOSITÓRIO
+- TEMOS UM REPOSITÓRIO
+    - Contém um readme com dicas de TS;
+    - Commits feitos com cuidado para explicar o uso da ferramenta;
+    - Documentação com exemplos de uso;
+    - Exercícios" Podem mexer à vontade1
+    - https://github.com/lira1705/mentoria-typescript

@@ -1,0 +1,2 @@
+npm start/init (não lembro a ordem e quais são e pra que servem)
+npm run watch = fará a compilação do TS para JS
