@@ -1,0 +1,14 @@
+- npm install -g angular/cli = instalar o pacote angular no node
+
+- ng new course-manager = vai gerar a pasta para incializar o que for necessário... Prof disse pra não colocar rota e por em CSS padrão... vai vai instalar os packaged
+
+- ng serve = inicializa a aplicação
+
+
+Arquivos importantes desse package:
+- package.json = qual conterá todas as dependências baixadas e que serão baixadas a mais
+- angular.json = contém as informações globais da aplicação... configura várias propriedades globais e define qual arquivo irá inicializar nossa aplicação
+- main.ts = carregando AppModule(app raiz, que carrega o pai, AppComponent)
+
+Função dos arquivos:
+- Módulos = limitadores de componentes
