@@ -1,0 +1,16 @@
+Módulos = Ganha muita perfomace
+
+Componentes = Componente único que possa ser modificado com maior facilidade... exemplo de um botão, o qual muda apenas uma propriedade... A ideia é ter componentes genéricos na aplicação
+
+Template = Onde coloca os elementos HTML/Estilização
+
+Diretivas = Algumas regras que pode aplicar novos estilos ao componente
+
+Serviços / Injeção de dependência = Usar ferramenta externa.. exemplo:  trazer dados de um banco de dados feitos em outras linguagens
+
+Data-binding = Trocar dados entre TEMPLATE e LÓGICA, bem como LÓGICA e TEMPLATE
+
+Roteamento = Caminhos
+
+Metadata = 
+
