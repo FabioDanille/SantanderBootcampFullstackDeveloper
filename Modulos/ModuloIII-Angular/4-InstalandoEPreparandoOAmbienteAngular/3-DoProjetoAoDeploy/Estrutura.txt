@@ -1,0 +1,21 @@
+e2e - Responsável por testes End-To-End no angular.
+
+node_modules - Responsável por armazenar as dependências e pacotes do projeto.
+
+src - Diretório da aplicação, onde nós criamos os nossos módulos, componentes, rotas, serviços e tudo que fizer parte da aplicação
+
+browrserlistrc - Usado pelo sistema de build para ajustar a saída CSS e JS para suportear os navegadores listados
+
+.editorconfig - configurações do editor de código
+
+angular.json - Arquivo de configuração do angular.
+
+karma.config.js - Configurações do karma para teste unitário.
+
+package-lock.json - Lista de dependências e sub-dependências.
+
+package.json - configurações das dependências e scripts do npm.
+
+README.md - Arquivo Markdown para documentação da nossa aplicação.
+
+tsconfigs e tslint - Arquivos de configuração do Typescript
