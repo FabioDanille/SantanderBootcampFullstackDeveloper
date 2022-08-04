@@ -9,7 +9,8 @@ const routes: Routes = [
     path: '', /* rota vazia será o componente abaixo */
     component: UsersListComponent
   }, 
-  { path: 'form', component: UserFormComponent }
+  { path: 'form', component: UserFormComponent },
+  { path: 'form/:id', component: UserFormComponent}
 ];
 
 @NgModule({
