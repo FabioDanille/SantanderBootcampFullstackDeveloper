@@ -33,4 +33,4 @@
 <app-button btntext="Cancelar" btntype="btn-danger"></app-button>
 <app-button btntext="Salvar" btnType="btn-success"></app-button>
 <app-button btntext="Clique aqui" btntype="btn-primary"></app-button>
-<app-button btntext="Teste" btnType="btn-default"></app-button>
+<app-button btntext="Botão @Output de filho para pai" btnType="btn-default" (clickChildren)="clicouNoFilho($event)"></app-button> <!--Componente vindo do FILHO para o PAI... 'clickChildren' é um @Output-->
