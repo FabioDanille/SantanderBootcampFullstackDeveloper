@@ -19,6 +19,10 @@ export class DataBindingComponent implements OnInit {
 
   textInput = '';
 
+  // Aula ciclo vida
+  number = 0;
+  destroy = false;
+
   constructor() { }
 
   ngOnInit(): void {
@@ -35,5 +39,13 @@ export class DataBindingComponent implements OnInit {
 
   clicouNoFilho(text: any){
     console.log(text);
+  }
+
+  incrementa(){
+    this.number++;
+  }
+
+  destroyComponent(){
+    this.destroy = true;
   }
 }
