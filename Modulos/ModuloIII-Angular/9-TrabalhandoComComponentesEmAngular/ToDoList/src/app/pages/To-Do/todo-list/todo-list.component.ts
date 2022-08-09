@@ -18,11 +18,11 @@ export class TodoListComponent implements OnInit {
 
   ngOnInit(): void {
     let items: any = localStorage.getItem('toDos'); // Pegou o que estava no storage vindo como JSON.stringfy
-    let toDos = JSON.parse(items) // fazendo voltar a ser array de objetos
-    if(!toDos) {
+    let toDosRecuperados = JSON.parse(items) // fazendo voltar a ser array de objetos
+    if(!toDosRecuperados) {
       this.toDos = [];
     }else {
-      this.toDos = toDos;
+      this.toDos = toDosRecuperados;
     }
   }
 
