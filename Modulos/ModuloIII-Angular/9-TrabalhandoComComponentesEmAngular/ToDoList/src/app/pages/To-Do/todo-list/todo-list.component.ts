@@ -29,4 +29,9 @@ export class TodoListComponent implements OnInit {
     console.log(this.toDos);
   }
 
+  removeToDo(todo: any) {
+    let index = this.toDos.indexOf(todo);
+    this.toDos.splice(index, 1);
+  }
+
 }
