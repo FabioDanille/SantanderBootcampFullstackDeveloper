@@ -17,6 +17,13 @@ export class TodoListComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    let items: any = localStorage.getItem('toDos'); // Pegou o que estava no storage vindo como JSON.stringfy
+    let toDos = JSON.parse(items) // fazendo voltar a ser array de objetos
+    if(!toDos) {
+      this.toDos = [];
+    }else {
+      this.toDos = toDos;
+    }
   }
 
   addToDo(title: string) {
@@ -26,12 +33,14 @@ export class TodoListComponent implements OnInit {
       title: title,
       done: false,
     });
-    console.log(this.toDos);
-  }
+    // console.log(this.toDos); // só para mostrar o botão funcionando
 
+    localStorage.setItem('toDos', JSON.stringify(this.toDos)); // Adicionando armazenamento LOCAL, para tanto foi transformado o array de objetos em string
+  }
   removeToDo(todo: any) {
     let index = this.toDos.indexOf(todo);
     this.toDos.splice(index, 1);
+    localStorage.setItem('toDos', JSON.stringify(this.toDos)); // pra remover do localstorage quando excluir
   }
 
 }
