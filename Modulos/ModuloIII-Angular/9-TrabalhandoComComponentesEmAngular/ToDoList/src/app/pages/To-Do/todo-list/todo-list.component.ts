@@ -8,6 +8,11 @@ import { Todo } from 'src/app/models/todo';
 })
 export class TodoListComponent implements OnInit {
   toDos: Array<Todo> = [];
+  todo: Todo = {
+    id: 0,
+    title: '',
+    done: false,
+  }
 
   constructor() { }
 
@@ -16,7 +21,11 @@ export class TodoListComponent implements OnInit {
 
   addToDo(title: string) {
     const id = this.toDos.length + 1;
-    this.toDos.push(new Todo(id, title, false));
+    this.toDos.push({
+      id: id,
+      title: title,
+      done: false,
+    });
     console.log(this.toDos);
   }
 
