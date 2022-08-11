@@ -1,0 +1,41 @@
+<h1>Meu nome é {{ text }} {{ retornaSaudacao() }} </h1>
+
+<!-- pode ser assim -->
+<img src="{{ imageUrl }}" alt="{{ imageDesc }}" width="250px">
+
+<!-- ou assim... conhecido como PROPERTY DATA BINDING -->
+<img [src]="imageUrl" [alt]="imageDesc" width="250px">
+
+
+<button (click)="clicou()">Clique</button>
+<img [src]="imageUrl" [alt]="imageDesc" (click)="clicou()" width="250px">
+<!-- tbm pode por o event binding assim -->
+
+
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+<!-- Adicionando estilo -->
+<button [attr.aria-label]="buttonText"> {{ buttonText }} </button>
+
+<!-- Class Binding -->
+<h1 [class.textred]="textRed"> Texto em vermelho por conta da classe </h1> 
+
+<!-- Style Binding -->
+<button [style.background-color]="bgColor">Botão Verde</button>
+<button [style.backgroundColor]="bgColor">Botão Verde</button>
+
+<!-- Two-way Data Binding - Requer nos imports o "FormsModel", para usar NgModel -->
+<input type="text" class="form-control" [(ngModel)]="textInput">
+<p class="text-default">{{ textInput }}</p>
+
+
+<!-- Transferindo dados entre componentes -->
+<app-button btntext="Cancelar" btntype="btn-danger"></app-button>
+<app-button btntext="Salvar" btnType="btn-success"></app-button>
+<app-button btntext="Clique aqui" btntype="btn-primary"></app-button>
+<app-button btntext="Botão @Output de filho para pai" btnType="btn-default" (clickChildren)="clicouNoFilho($event)"></app-button> <!--Componente vindo do FILHO para o PAI... 'clickChildren' é um @Output-->
+
+<!-- Life Cycle do Angular -->
+<app-life-cycle [number]="number" *ngIf="!destroy"></app-life-cycle>
+<app-button btntext="Adicionar Componente" btntype="btn-primary" (click)="incrementa()"></app-button>
+<app-button btntext="Destruir Componente" btntype="btn-danger" (click)="destroyComponent()"></app-button>
