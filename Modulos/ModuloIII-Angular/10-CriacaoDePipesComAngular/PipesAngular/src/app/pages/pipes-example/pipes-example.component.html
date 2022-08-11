@@ -23,4 +23,13 @@
 
     <p> {{ text | uppercase }} </p>
     <p> {{ text | lowercase }} </p>
+
+
+    <p>Data de Hoje</p> <!-- https://angular.io/api/common/DatePipe tem os pipes de data-->
+    <p> Sem Pipe: {{ date }} </p>
+    <p> Com Pipe default: {{ date | date }} </p>
+    <p> Com Pipe 'data completa': {{ date | date:'full' }} </p> 
+    <p> Com Pipe 'data reduzida': {{ date | date:'shortTime' }} </p>
+    <!-- Esses date's verdes são pipes, em seguida são chamados parâmetros( amarelos ) -->
+
 </div>

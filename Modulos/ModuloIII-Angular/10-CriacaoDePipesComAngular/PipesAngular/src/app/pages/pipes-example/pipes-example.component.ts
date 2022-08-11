@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class PipesExampleComponent implements OnInit {
   number = 0;
   text = 'Hello World!';
+  date = new Date; // traz informações da data atual
 
   constructor() { }
 
