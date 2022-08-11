@@ -1,0 +1,26 @@
+<div class="form-group">
+    <label for="number">Number: </label>
+    <input type="text" [(ngModel)]="number" class="form-control" id="number">
+</div>
+
+<div class="">
+    <p>Resultado Sem Formatação</p>
+    <p> {{ number | number }} </p>
+
+    
+    <p>Resultado Com Formatação</p>
+    <p> {{ number | number:'2.0-1'}} </p> <!--2 antes do ., de 0 a 1 depois do ponto-->
+    
+
+    <p>Resultado em Moeda (Currency)</p>
+    <p> {{ number | currency }} Dólar (Padrão)</p>
+    <p> {{ number | currency: 'BRL' }} Reais</p>
+
+
+    <p>Resultado em Porcentagem </p>
+    <p> {{ number | percent }} </p>
+    
+
+    <p> {{ text | uppercase }} </p>
+    <p> {{ text | lowercase }} </p>
+</div>

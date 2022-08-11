@@ -12,13 +12,18 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { DataBindingComponent } from './pages/data-binding/data-binding.component';
 import { ButtonComponent } from './components/button/button.component';
 import { LifeCycleComponent } from './components/life-cycle/life-cycle.component';
+import { PipesExampleComponent } from './pages/pipes-example/pipes-example.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     UsersListComponent, 
-    UserFormComponent, DataBindingComponent, ButtonComponent, LifeCycleComponent,
+    UserFormComponent, 
+    DataBindingComponent, 
+    ButtonComponent, 
+    LifeCycleComponent, 
+    PipesExampleComponent,
   ],
   imports: [
     BrowserModule,
