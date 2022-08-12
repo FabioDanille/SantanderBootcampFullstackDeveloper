@@ -13,6 +13,7 @@ import { DataBindingComponent } from './pages/data-binding/data-binding.componen
 import { ButtonComponent } from './components/button/button.component';
 import { LifeCycleComponent } from './components/life-cycle/life-cycle.component';
 import { PipesExampleComponent } from './pages/pipes-example/pipes-example.component';
+import { PrintListPipe } from './print-list.pipe';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { PipesExampleComponent } from './pages/pipes-example/pipes-example.compo
     DataBindingComponent, 
     ButtonComponent, 
     LifeCycleComponent, 
-    PipesExampleComponent,
+    PipesExampleComponent, 
+    PrintListPipe, // como vem do módulo raiz, PrintListPipe não precisa ser priovido (linha 37)
   ],
   imports: [
     BrowserModule,
