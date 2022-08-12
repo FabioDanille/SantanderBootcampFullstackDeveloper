@@ -21,4 +21,8 @@ export class PipesExampleComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  mudaValor(){
+    this.number = 123456789;
+  }
+
 }
