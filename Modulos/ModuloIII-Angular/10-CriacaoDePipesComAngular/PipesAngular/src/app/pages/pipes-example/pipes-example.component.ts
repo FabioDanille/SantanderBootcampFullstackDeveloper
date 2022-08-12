@@ -10,6 +10,12 @@ export class PipesExampleComponent implements OnInit {
   text = 'Hello World!';
   date = new Date; // traz informações da data atual
 
+  pessoa = {
+    nome: 'Ivonaldo',
+    idade: '26',
+    profissao: 'programador'
+  }
+
   constructor() { }
 
   ngOnInit(): void {

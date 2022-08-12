@@ -7,31 +7,45 @@
     <p>Resultado Sem Formatação</p>
     <p> {{ number | number }} </p>
 
-    
+    <br>
+
     <p>Resultado Com Formatação</p>
     <p> {{ number | number:'2.0-1'}} </p> <!--2 antes do ., de 0 a 1 depois do ponto-->
     
+    <br>
 
     <p>Resultado em Moeda (Currency)</p>
     <p> {{ number | currency }} Dólar (Padrão)</p>
     <p> {{ number | currency: 'BRL' }} Reais</p>
 
+    <br>
 
     <p>Resultado em Porcentagem </p>
     <p> {{ number | percent }} </p>
     
+    <br>
 
     <p> {{ text | uppercase }} </p>
     <p> {{ text | lowercase }} </p>
 
+    <br>
 
     <p>Data de Hoje</p> <!-- https://angular.io/api/common/DatePipe tem os pipes de data-->
     <p> Sem Pipe: {{ date }} </p>
     <p> Com Pipe default: {{ date | date }} </p>
     <p> Com Pipe 'data completa': {{ date | date:'full' }} </p> 
     <p> Com Pipe 'data reduzida': {{ date | date:'shortTime' }} </p>
-    <!-- Esses date's verdes são pipes, em seguida são chamados parâmetros( amarelos ) -->
     <p> Com Pipe 'data reduzida em pt-BR': {{ date | date:'short':'pt' }} </p> 
     <p> Com Pipe 'dd/MM/yyyy': {{ date | date:'dd/MM/yyyy':'+GMT-0300' }} </p> 
+    <!-- Esses date's verdes são pipes, em seguida são chamados parâmetros( amarelos ) -->
     
+    <br>
+
+    <!-- Como usar os pipes JSON e slice -->
+    <p> {{ pessoa | json }} </p>
+
+    <!--                  0123456789 -->
+    <!--                  Hello World -->
+    <p>SLICE {{ text | slice: 4:7 }} </p> <!-- o W... conta onde inicia, retira onde termina -->
+
 </div>
