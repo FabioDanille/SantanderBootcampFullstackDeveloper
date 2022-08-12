@@ -31,5 +31,7 @@
     <p> Com Pipe 'data completa': {{ date | date:'full' }} </p> 
     <p> Com Pipe 'data reduzida': {{ date | date:'shortTime' }} </p>
     <!-- Esses date's verdes são pipes, em seguida são chamados parâmetros( amarelos ) -->
-
+    <p> Com Pipe 'data reduzida em pt-BR': {{ date | date:'short':'pt' }} </p> 
+    <p> Com Pipe 'dd/MM/yyyy': {{ date | date:'dd/MM/yyyy':'+GMT-0300' }} </p> 
+    
 </div>
